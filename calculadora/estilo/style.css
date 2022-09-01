@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+:root {
+    --color1: #D9D9D9;
+
+}
+
+body {
+    background-color: rgb(58, 55, 55);
+}
+
+#background-container {
+    background-color: var(--color1);
+    width: 375px;
+    height: 812px;
+    margin: auto;
+}
+
+button {
+}
+
