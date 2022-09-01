@@ -9,6 +9,16 @@ body {
     background-color: rgb(58, 55, 55);
 }
 
+#operations {
+    background-color: rgb(64, 59, 59);
+    text-align: right;
+}
+
+#results {
+    background-color: gray;
+    text-align: right;
+}
+
 #background-container {
     background-color: var(--color1);
     width: 375px;
