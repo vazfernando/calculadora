@@ -8,40 +8,40 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <section id="background-container">
-        <section id="allcontent">
-            <div id="operations">display math Operations</div>
-            <div id="results">display results</div>
+    <section class="background-container" id="background-container">
+        <section class="allcontent" id="allcontent">
+            <div class="display-operations" id="display-operations">display-operations</div>
+            <div class="display-results" id="display-results">display-results</div>
+
+            </section>
             <section id="first-row">
-                <button>BS</button>
+                <button class="clean" id="button">C</button>
+                <button class="backspace" id="button">BS</button>
+                <button class="percent" id="button">%</button>
+                <button class="divide" id="button">/</button>
             </section>
             <section id="second-row">
-                <button class="big-button" id="c">C</button>
-                <button id="percent">%</button>
-                <button id="divide">/</button>
+                <button class="seven" id="button7">7</button>
+                <button class="eight" id="button">8</button>
+                <button class="nine" id="button">9</button>
+                <button class="multiply" id="button">x</button>
             </section>
             <section id="third-row">
-                <button id="7">7</button>
-                <button id="8">8</button>
-                <button id="9">9</button>
-                <button id="multiply">x</button>
+                <button class="four" id="button">4</button>
+                <button class="five" id="button">5</button>
+                <button class="six" id="button">6</button>
+                <button class="minus" id="button">-</button>
             </section>
             <section id="fourth-row">
-                <button id="4">4</button>
-                <button id="5">5</button>
-                <button id="6">6</button>
-                <button id="minus">-</button>
+                <button class="one" id="button">1</button>
+                <button class="two" id="button">2</button>
+                <button class="three" id="button">3</button>
+                <button class="plus" id="buttonplus">+</button>
             </section>
             <section id="fifth-row">
-                <button id="1">1</button>
-                <button id="2">2</button>
-                <button id="3">3</button>
-                <button id="plus">+</button>
-            </section>
-            <section id="sixth-row">
-                <button id="0">0</button>
-                <button id="point">.</button>
-                <button class="big-button" id="result">=</button>
+                <button class="zero" id="button">0</button>
+                <button class="point" id="button">.</button>
+                <button onclick="pressresult()" class="equals" class="big-button" id="press-result">=</button>
             </section>
         </section>
     </section>
